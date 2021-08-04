@@ -16,6 +16,9 @@ let intervalId = null;
         
         
     }
+    const parar = (event) =>{
+        stopAutomatic();
+    }
     const proIndex = () => corIndex = corIndex < 2? ++corIndex : 0;
     /*{    
         /if(corIndex < 2){

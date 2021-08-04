@@ -12,6 +12,33 @@ main{
     gap: 5vh;
 }
 
-.button{
-    width: 80px;
+button{
+    width: 120px;
+    height: 40px;
+    font: bold 1.1rem serif;
+    background: #000;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#verde:hover{
+    background-color: greenyellow;
+    color: black;
+}
+#amarelo:hover{
+    background-color: yellow;
+    color: black;
+}
+#vermelho:hover{
+    background-color: red;
+    color: black;
+}
+#auto:hover{
+    background-color: blue;
+    color: black;
+}
+#parar:hover{
+    background-color: darkorange;
+    color: black;
 }
